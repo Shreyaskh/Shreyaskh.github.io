@@ -17,11 +17,11 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(135deg, #2c3e50, #1a2a3a); /* Dark gradient */
+    background: linear-gradient(135deg, #2c3e50, #1a2a3a); /* Dark gradient for depth */
     color: #ffffff;
     padding: 40px 0;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Soft, subtle shadow */
     position: relative;
     overflow: hidden;
 }
@@ -30,7 +30,7 @@ header h1 {
     margin: 0;
     font-size: 3.2em; /* Larger, bolder name */
     font-weight: 700;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.03em; /* Slightly tighter letter spacing */
 }
 
 header .title {
@@ -52,7 +52,7 @@ header .contact-info {
 header .contact-info a {
     color: #a0d6fc; /* Lighter blue for links */
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease; /* Smooth transition on hover */
     font-weight: 500;
 }
 
@@ -68,7 +68,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0; /* Subtle bottom border */
 }
 
 nav ul {
@@ -90,7 +90,7 @@ nav ul li a {
     font-weight: 500; /* Medium weight */
     padding: 10px 18px;
     border-radius: 6px; /* Slightly more rounded */
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
     display: block; /* Make the whole padding area clickable */
 }
 
@@ -214,7 +214,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
     font-size: 1.3em;
     color: #34495e; /* Darker text */
     margin-bottom: 15px; /* More space between collapsible headers */
